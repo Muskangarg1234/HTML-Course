@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backgrounds and borders</title>
+    <style>
+        #firstpara{
+            background-color: red;
+            height: 100px;
+            width:450px;
+            border:6px solid purple;
+            /* border-width: 6px;
+            border-color: purple;
+            border-style: solid; */
+            border-radius: 24px;
+        }
+        #secondpara{
+            background-color: red;
+            height: 100px;
+            width:450px;
+            border-top: 6px solid purple;
+            border-bottom: 16px solid pink;
+            border-left: 6px solid green;
+            border-right: 6px solid black;
+            border-top-left-radius: 24px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 14px;
+            border-bottom-right-radius: 30px;
+        }
+        #thirdpara{
+            border:10px solid red;
+            height:600px;
+            width:500px;
+            background-image: url('https://images.unsplash.com/photo-1473984951266-787b955c9e0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60');
+            /* for image no to repeat */
+            background-repeat: no-repeat; 
+            /* for image to repeat horizontally */
+            /* background-repeat: repeat-x; */
+            /* for image to repeat vertically */
+            /* background-repeat: repeat-y; */
+            background-position: center center;
+        }
+    </style>
+</head>
+<body>
+    <h1>THis is first heading</h1>
+    <p id="firstpara">THis is first paragraph</p>
+    <h2>This is second heading</h2>
+    <p id="secondpara">This is second paragraph</p>
+    <h3>This is third heading</h3>
+    <p id="thirdpara">This is third paragraph</p>
+</body>
+</html>

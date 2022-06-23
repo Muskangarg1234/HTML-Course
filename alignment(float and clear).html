@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        /*        *{
+                       box-sizing:border-box;
+                   }                    */
+        body{
+            box-sizing:border-box;
+            background-color:antiquewhite;
+        }
+        .container{
+            width:1000px;
+            border:3px solid purple;
+            margin: 10px auto;
+        }
+        .items{
+            padding:12px 3px;
+            margin:10px 3px;
+            border:2px solid red;
+            background-color:darkgrey;
+            font-family:cursive;
+            font-size:20px;
+            text-align:justify;
+        }
+        h1{
+            width:450px;
+            margin:20px auto;
+            font-size: 40px;
+        }
+        #fruits_shop{
+            width:48%;
+            float:left;
+        }
+        #stationary_shop{
+            width:48%;
+            float:right;
+        }
+        #cosmetics_shop{
+            clear:both;
+        }
+        h3{
+            text-align: center;
+            border:2px solid rgb(14, 16, 15);
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SHOPPING STORE</h1>
+           <div id="fruits_shop" class="items">
+            <h3>Fruits</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nesciunt accusantium a voluptas distinctio porro, neque, earum aliquam accusamus corporis, voluptatum quo natus tempora delectus repellendus illo excepturi voluptate odit non illum autem quaerat dolores quos? Cumque quia modi praesentium ducimus architecto sunt nobis perspiciatis.</p>
+           </div>
+           <div id="stationary_shop" class="items">
+            <h3>Stationary</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nesciunt accusantium a voluptas distinctio porro, neque, earum aliquam accusamus corporis, voluptatum quo natus tempora delectus repellendus illo excepturi voluptate odit non illum autem quaerat dolores quos? Cumque quia modi praesentium ducimus architecto sunt nobis perspiciatis.</p>
+           </div>
+           <div id="cosmetics_shop" class="items">
+            <h3>Cosmetics</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nesciunt accusantium a voluptas distinctio porro, neque, earum aliquam accusamus corporis, voluptatum quo natus tempora delectus repellendus illo excepturi voluptate odit non illum autem quaerat dolores quos? Cumque quia modi praesentium ducimus architecto sunt nobis perspiciatis.</p>
+           </div>
+    </div>
+</body>
+</html>
